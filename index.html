@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+ 
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      max-width: 1440px;
+      background-color:   hsl(219, 82%, 85%);
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .barcode img{
+      width: 158px;
+      border-radius: 4px;
+       
+    }
+    .barcode {
+      width: 160px;
+     
+      background-color: hsl(0, 0%, 100%);
+      margin: 70px auto 50px auto;
+      padding: 18px;
+      text-align: center;
+      border-radius: 10px;
+        
+    }
+    .barcode p{
+      font-family:'Outfit', sans-serif;
+      font-size: small;
+      color: hsl(220, 15%, 55%);
+    }
+    .barcode h1{
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="barcode">
+    <img src="images/image-qr-code.png" alt="qr-code">
+    <h1>Improve your front-end skills by building projects</h1>
+    <p class="small">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">ifeanyi</a>.
+  </div>
+</body>
+</html>
